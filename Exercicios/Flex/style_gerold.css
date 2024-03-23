@@ -1,35 +1,87 @@
-header {
-    background-color: transparent;
-    left: 0;
-    top: 0;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora';
 }
 
-.container {
-    max-width: 1140px;
-}
-
-.container .row {
+#header {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0;
+    height: 100%;
+    justify-content: space-between;
     align-items: center;
+    font-weight: 400;
+    margin-top: 30px;
 }
 
-.container .logo-box {
-    max-width: 60px;
-    width: 100%;
-    margin-right: 35px;
+#header .logo img {
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin-left: 100px;
+    padding: 10px;
 }
 
-.container .logo-box a {
-    display: inline-block;
-}
-
-.container nav ul  {
-    display: flex;
+a {
+    color: inherit;
     text-decoration: none;
+}
+
+#header .menu {
+    display: flex;
+    align-items: center;
+    align-content: right;
+}
+
+#header .menu ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+#header .menu ul li {
+    list-style: none;
+    padding: 15px;
+    color: #390994;
+    font-size: 15px;
+}
+
+#header .menu ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: #390994;
+}
+
+#header .mail {
+    color: #390994;
+    margin-right: 50px;
+}
+
+#header .menu button {
+    border-radius: 15px;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+#header .menu .button {
+    display: flex;
+    background: linear-gradient(90deg,#8750f7, #8750f7, #2a1454);
+    color: white;
+    font-family: 'Sora';
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: -1.5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    padding: 10px;
+    height: 35px;
+    width: 130px;
+    border-radius: 35px;
+}
+
+
+#header .menu .button:hover {
+    transition: 2s;
     
 }
