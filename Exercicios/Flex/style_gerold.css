@@ -165,7 +165,6 @@ h1 {
     border: 1px solid #8750f7;
     border-radius: 50px;
     justify-content: center;
-    gap: 25px;
     height: 0px;
     width: 200px;
     margin-top: -50px;
@@ -182,7 +181,7 @@ h1 {
 
 #main .container1 .intro_text .button2 ul li {
     display: flex;
-    margin-left: 20px;
+    margin-left: -20px;
     margin-top: -50px;
     padding: 20px;
 }
@@ -199,14 +198,28 @@ h1 {
     border-radius: 50px;
 }
 
-.fa-brands {
+.fa-twitter {
     border: 1px solid #8750f7;
     color: #8750f7;
     padding: 10px;
     border-radius: 50px;
 }
 
-.fa-solid {
+.fa-basketball {
+    border: 1px solid #8750f7;
+    color: #8750f7;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-linkedin-in {
+    border: 1px solid #8750f7;
+    color: #8750f7;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fa-github {
     border: 1px solid #8750f7;
     color: #8750f7;
     padding: 10px;
@@ -350,9 +363,16 @@ h1 {
     margin-right: 100px;
 }
 
-#main .services .flaticon_up {
-    font-weight: 500;
-    width: 5%;
+.fa-square-arrow-up-right {
+    color: #401a8b;
+    font-size: 50px;
+}
+
+.fa-square-arrow-up-right:hover {
+    color: white;
+    font-size: 50px;
+    -webkit-transform: rotate(90deg);
+    transition: 0.5s ease-in-out;
 }
 
 #main .services .container_services:hover {
