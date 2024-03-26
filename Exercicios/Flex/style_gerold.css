@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #401a8b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8750f7;
+}
+
 body {
     margin: 0;
     padding: 0;
