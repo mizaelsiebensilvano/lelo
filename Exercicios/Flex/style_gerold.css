@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+/* Barra de Rolagem */
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #401a8b;
@@ -347,7 +348,7 @@ h1 {
     height: 120px;
     align-items: center;
 }
-                                                                                                                                                                                                                                     
+
 #main .services .branding .number_services {
     font-size: 20px;
     font-weight: 700;
@@ -373,12 +374,16 @@ h1 {
     margin-right: 100px;
 }
 
-.fa-square-arrow-up-right {
+/* .fa-square-arrow-up-right */
+.flaticon_up {
     color: #401a8b;
     font-size: 50px;
 }
 
-#main .services:hover .container_services .flaticon_up .fa-square-arrow-up-right {
+/* #main .services:hover .container_services .flaticon_up .fa-square-arrow-up-right */ 
+
+#main .services .container_services:hover .flaticon_up
+ {
     color: white;
     font-size: 50px;
     -webkit-transform: rotate(90deg);
@@ -639,26 +644,26 @@ h1 {
     width: 50px;
 }
 
-#main .developer_course .coluna1_linha1 .linha1 {
+#main .developer_course .coluna1_linha1a .linha1 {
     font-size: 20px;
     color: #8750f7;
     width: 50%;
 }
 
-#main .developer_course .coluna1_linha1 .linha2 {
+#main .developer_course .coluna1_linha1a .linha2 {
     font-size: 23px;
     color: #401a8b;
     width: 60%;
 }
 
-#main .developer_course .coluna1_linha1 .linha3 {
+#main .developer_course .coluna1_linha1a .linha3 {
     font-size: 17px;
     font-weight: 400;
     color: #401a8b;
     width: 50%;
 }
 
-#main .developer_course:hover .coluna1_linha1 {
+#main .developer_course:hover .coluna1_linha1a {
     background-color: #390994;
     color: white;
 }
