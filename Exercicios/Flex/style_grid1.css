@@ -15,6 +15,7 @@
     padding: 20px;
 } */
 
+/*
 .container {
     background-color: #333;
     border: 3px solid red;
@@ -34,4 +35,56 @@
 
 #header {
     grid-area: header;
+}
+*/
+
+.container {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: 
+    "red" "green"
+    "yello" "blue";
+    align-items: center;
+    justify-items: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+    text-align: end;
+    align-content: start;
+    grid-area: red;
+}
+
+.blue {
+    background-color: blue;
+    text-align: end;
+    align-content: center;
+    grid-area: blue;
+}
+
+.green {
+    background-color: green;
+    text-align: center;
+    align-content: end;
+    grid-area: green;
+}
+
+.yellow {
+    background-color: yellow;
+    text-align: start;
+    align-content: start;
+    grid-area: yellow;
 }
