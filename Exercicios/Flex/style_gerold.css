@@ -500,20 +500,13 @@ h1 {
 }
 
 #main .resume {
-    /* border: 2px solid rgb(255, 0, 200);
-    display: flex;
-    background-color: rgb(240, 238, 238);
-    max-width: 100%;
-    height: 150px;
-    text-align: center; */
-
     background-color: rgb(240, 238, 238);
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
     max-width: 100%;
     margin: auto;
-    height: 300px;
+    height: 200px;
 
 }
 
@@ -530,64 +523,157 @@ h1 {
     margin: 15px;
 }
 
+
 #main .developer_course {
-    border: 2px solid blue;
     display: flex;
     background-color: rgb(240, 238, 238);
+    font-size: 45px;
+    font-weight: 700;
+    color: #401a8b;
     max-width: 100%;
     height: 150px;
-    text-align: center;
+    align-items: center;
 }
 
-.coluna1_linha1 {
-    border: 2px solid red;
+#main .developer_course .coluna1_linha1a {
     background-color: white;
     flex: 40%;
     margin: 50px;
     height: 100px;
     border-radius: 20px;
-}
-
-#main .developer_course .developer {
-    border: 2px solid blue;
-    background-color: rgb(240, 238, 238);
-    font-size: 45px;
-    font-weight: 700;
-    color: #401a8b;
-    width: 48%;
-    height: 100px;
-    padding-top: 100px;
-}
-
-#main .developer_course {
-    border: 2px solid blue;
-    background-color: rgb(240, 238, 238);
-    font-size: 45px;
-    font-weight: 700;
-    color: #401a8b;
-    width: 30%;
-    height: 100px;
-    padding-top: 100px;
-}
-
-#main .developer_course .coluna1_linha1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1b {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1c {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1d {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1e {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1f {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1g {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+#main .developer_course .coluna1_linha1h {
+    background-color: white;
+    flex: 40%;
+    margin: 50px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
 }
 
 #main .developer_course .coluna1_linha1 .linha1 {
     font-size: 20px;
     color: #8750f7;
+    width: 50%;
 }
 
 #main .developer_course .coluna1_linha1 .linha2 {
     font-size: 23px;
     color: #401a8b;
+    width: 60%;
 }
 
 #main .developer_course .coluna1_linha1 .linha3 {
     font-size: 17px;
     font-weight: 400;
     color: #401a8b;
+    width: 50%;
+}
+
+#main .developer_course:hover .coluna1_linha1 {
+    background-color: #390994;
+    color: white;
+}
+
+#main .developer_course .coluna1_linha1:hover .linha1 {
+    background-color: #390994;
+    color: white;
+}
+
+#main .developer_course .coluna1_linha1:hover .linha2 {
+    background-color: #390994;
+    color: white;
+}
+
+#main .developer_course .coluna1_linha1:hover .linha3 {
+    background-color: #390994;
+    color: white;
 }
