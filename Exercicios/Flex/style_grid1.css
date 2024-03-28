@@ -38,6 +38,7 @@
 }
 */
 
+/*
 .container {
     border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,11 +48,11 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas: 
-    "red" "green"
-    "yello" "blue";
+    "green" "red" "blue" "blue"
+    "blue" "yellow" "yellow";
     align-items: center;
     justify-items: center;
 }
@@ -63,28 +64,97 @@ div {
 
 .red {
     background-color: red;
-    text-align: end;
-    align-content: start;
     grid-area: red;
 }
 
 .blue {
     background-color: blue;
-    text-align: end;
-    align-content: center;
     grid-area: blue;
 }
 
 .green {
     background-color: green;
-    text-align: center;
-    align-content: end;
     grid-area: green;
 }
 
 .yellow {
     background-color: yellow;
-    text-align: start;
-    align-content: start;
     grid-area: yellow;
+} */
+
+/*
+body {
+    margin: 0;
+    font-size: 50px;
+    display: grid;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 20% 1fr 10%;
+    gap: 10px;
+    outline: 2px solid red;
+
+    grid-template-areas: 
+    'header header header'
+    'purple goiaba goiaba'
+    'limao limao limao'
+    ;
+}
+
+header {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1/2;
+
+    grid-area: 'header';
+}
+
+main {
+    background-color: blueviolet;
+    grid-area: 'goiaba';
+}
+
+aside {
+    background-color: palevioletred;
+    grid-column: 2/4;
+    grid-area: purple;
+}
+
+footer {
+    background-color: chartreuse;
+    grid-column: 1/4;
+    grid-area: limao;
+} */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2px;
+
+}
+
+div {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+div:nth-child(1) {
+    align-self: end;
+    place-self: center;
+    text-align: center;
 }
